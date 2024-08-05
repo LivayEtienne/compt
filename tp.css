@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+#marge{
+    margin: 100px 100px 0px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    width: 70%;
+    height: 80vh;
+    background-color: white;
+}
+
+aside{
+    background-color: black;
+    width: 30%;
+    height: 80vh;
+}
+body{
+    background-color: gold;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.contain .text{
+    background-color: yellow;
+    width: 80%;
+    height: 10vh;
+    position: absolute;
+    top: 60px;
+    right: 0.1px;
+    z-index: 0;
+}
+.contain .image{
+    background-image: url(imgg.png);
+    position: absolute;
+    left: 200px;
+    top: -8px;
+    border: 3px solid black;
+    height: 20vh;
+    width: 20%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 1;
+}
+footer{
+    background-color: red;
+    width: 100%;
+    height: 20vh;
+}
+aside{
+    position: relative;
+}
+section .containe{
+    width: 100%;
+    background-color: yellow;
+    height: 10vh;
+    position: absolute;
+    top: 60px;
+}
+.Kelly{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    font-size: 60px;
+}
+.WHITE{
+    font-size: 60px;
+}
