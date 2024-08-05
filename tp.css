@@ -2,7 +2,7 @@
     margin: 0;
 }
 #marge{
-    margin: 100px 100px 0px;
+    margin: 100px;
 }
 #container{
     display: flex;
@@ -72,4 +72,63 @@ section .containe{
 }
 .WHITE{
     font-size: 60px;
+}
+.barr{
+    background-color: black;
+    border: 2px solid orange;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 350px;
+    margin-top: 20px;
+}
+.barr .barr1{
+    background-color: orange;
+    display: block;
+    width: 90%;
+    height: 10px;
+}
+#mm{
+    color: white;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+.barre{
+    background-color: black;
+    border: 2px solid orange;
+    width: 100%;
+    height: 10px;
+    position: relative;
+    top: 350px;
+    margin-top: 50px;
+}
+.barre .barr2{
+    background-color: orange;
+    display: block;
+    width: 70%;
+    height: 10px;
+}
+#m{
+    color: white;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+.edu{
+    position: relative;
+    top: 210px;
+    background-color: orange;
+    width: 90%;
+    height: 50px;
+}
+#modif{
+    position: absolute;
+    left: 830px;
+    top: 10px;
+}
+#bulle{
+    background-color: orange;
+    width: 10px;
+    height: 10px;
 }
